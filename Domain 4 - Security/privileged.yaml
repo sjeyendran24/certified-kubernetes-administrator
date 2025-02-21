@@ -7,7 +7,7 @@ spec:
   - name: privileged
     image: nginx
     securityContext:
-      privileged: true
+      privileged: false
 
 ---
 apiVersion: v1
